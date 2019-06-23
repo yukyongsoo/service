@@ -6,10 +6,11 @@ import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient
 import org.springframework.cloud.openfeign.EnableFeignClients
 
-@SpringBootApplication
+
 @EnableFeignClients
 @EnableCircuitBreaker
 @EnableEurekaClient
+@SpringBootApplication
 class ServiceApplication
 
 fun main(args: Array<String>) {

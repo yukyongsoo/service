@@ -1,6 +1,6 @@
 spring:
   application:
-    name: service
+    name: storage
   profiles:
     active: default
   cloud:
