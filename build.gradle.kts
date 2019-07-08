@@ -27,6 +27,8 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
     implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
     implementation("org.springframework.cloud:spring-cloud-starter-oauth2")
+    implementation("org.springframework.cloud:spring-cloud-stream")
+    implementation("org.springframework.cloud:spring-cloud-starter-stream-kafka")
     implementation("org.springframework.boot:spring-boot-starter-web")
 
     runtimeOnly("com.h2database:h2")
